@@ -1,5 +1,5 @@
 # Exercise03
-This is EX03 for C++.  In exercise, you will
+This is EX03 for C++.  In this exercise, you will
 
 1. Compile "ex03.cpp" with "g++ ex03.cpp -o ex03.exe".
 2. Run "ls" to see a file "ex03.exe" is created.
