@@ -1,0 +1,9 @@
+name: My Actions Demo
+run-name: ${{ github.actor }} is testing GitHub Actions
+on: [push]
+jobs:
+  Explore-My-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - run: echo "🍏 This job's status is ${{ job.status }}."
